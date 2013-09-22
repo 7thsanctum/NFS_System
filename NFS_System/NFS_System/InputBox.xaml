@@ -1,0 +1,18 @@
+﻿<Window x:Class="NFS_System.InputBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="User Input Screen - Deposit/Withdrawel" 
+        Height="190" 
+        Width="300"
+        MinHeight="10"
+        MinWidth="300"
+        ResizeMode="CanResizeWithGrip"
+        ShowInTaskbar="False"
+        WindowStartupLocation="CenterOwner" Loaded="Window_Loaded" Closing="Window_Closing">
+    <Grid>
+        <Button Content="Enter" Height="23" HorizontalAlignment="Left" Margin="101,116,0,0" Name="Enter" VerticalAlignment="Top" Width="75" Click="Enter_Click" />
+        <TextBlock Height="40" HorizontalAlignment="Left" Margin="12,12,0,0" Name="InputBox_Text" Text="TextBlock" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="77,58,0,0" Name="InputBox_Input" VerticalAlignment="Top" Width="120" />
+        <TextBlock Foreground="#FFE5572C" Height="23" HorizontalAlignment="Left" Margin="12,87,0,0" Name="errormessage" OpacityMask="Crimson" VerticalAlignment="Top" Width="247" />
+    </Grid>
+</Window>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Savings>
+  <accNum>1</accNum>
+  <balance>100</balance>
+  <interestDays>0</interestDays>
+  <limit>0</limit>
+</Savings>

@@ -1,0 +1,16 @@
+﻿<Window x:Class="NFS_System.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Napier Financial System - Welcome" Height="400" Width="400">
+    <Grid>
+        <Label Content="Napier Financial System" Height="28" HorizontalAlignment="Center" Margin="114,12,114,0" Name="Title" VerticalAlignment="Top" MinWidth="0" FontFamily="Arial" FontWeight="Bold" FontStretch="Normal" Width="150" />
+        <Label Content="Welcome" Height="28" HorizontalAlignment="Left" Margin="157,46,0,0" Name="Welcome" VerticalAlignment="Top" FontFamily="Arial" FontWeight="Bold" />
+        <Label Content="Customer" Height="28" HorizontalAlignment="Left" Margin="62,102,0,0" Name="Customer_Label" VerticalAlignment="Top" />
+        <Label Content="Staff" Height="28" HorizontalAlignment="Right" Margin="0,102,80,0" Name="Staff_Label" VerticalAlignment="Top" />
+        <Button Content="Customer" Height="46" HorizontalAlignment="Left" Margin="42,136,0,0" Name="Customer_Button" VerticalAlignment="Top" Width="100" Click="Customer_Button_Click" />
+        <Button Content="Clerk" Height="46" HorizontalAlignment="Left" Margin="230,136,0,0" Name="Clerk_Button" VerticalAlignment="Top" Width="100" Click="Clerk_Button_Click" />
+        <Button Content="Chief Clerk" Height="46" HorizontalAlignment="Left" Margin="230,188,0,0" Name="Chief_Button" VerticalAlignment="Top" Width="100" Click="Chief_Button_Click" />
+        <Button Content="Exit" Height="23" HorizontalAlignment="Left" Margin="157,326,0,0" Name="Exit" VerticalAlignment="Top" Width="75" IsCancel="False" Click="Exit_Click" />
+        <Button Content="Register Details" Height="46" HorizontalAlignment="Left" Margin="42,188,0,0" Name="Register" VerticalAlignment="Top" Width="100" Click="Register_Click" />
+    </Grid>
+</Window>

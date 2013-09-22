@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Customer>
+  <username>10006179</username>
+  <password>1234</password>
+  <name>Mark Miller</name>
+  <address>1 Haddington Road</address>
+  <accNum> 123456789, 123456788</accNum>
+</Customer>

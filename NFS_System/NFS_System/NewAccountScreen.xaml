@@ -1,0 +1,23 @@
+﻿<Window x:Class="NFS_System.NewAccountScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="NewAccountScreen" Height="300" Width="300">
+    <Grid>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="118,12,0,0" Name="username_textbox" VerticalAlignment="Top" Width="120" IsEnabled="True" IsReadOnly="True" />
+        <Label Content="Username : " Height="28" HorizontalAlignment="Left" Margin="40,10,0,0" Name="username_label" VerticalAlignment="Top" />
+        <Button Content="Save" Height="23" HorizontalAlignment="Left" Margin="44,226,0,0" Name="save_button" VerticalAlignment="Top" Width="75" Click="save_button_Click" />
+        <Button Content="Cancel" Height="23" HorizontalAlignment="Left" Margin="155,226,0,0" Name="cancel_button" VerticalAlignment="Top" Width="75" Click="cancel_button_Click" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="118,70,0,0" Name="accnum_textbox" VerticalAlignment="Top" Width="120" IsReadOnly="True" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="118,99,0,0" Name="balance_textbox" VerticalAlignment="Top" Width="120" Text="0" IsReadOnly="False" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="118,128,0,0" Name="limit_textbox" VerticalAlignment="Top" Width="120" TextChanged="limit_textbox_TextChanged" Text="" />
+        <Label Content="Account Number : " Height="28" HorizontalAlignment="Left" Margin="2,68,0,0" Name="accNum_label" VerticalAlignment="Top" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="118,41,0,0" Name="acctype_combobox" VerticalAlignment="Top" Width="120" SelectedIndex="0" SelectionChanged="acctype_combobox_SelectionChanged" />
+        <Label Content="Account Type : " Height="28" HorizontalAlignment="Left" Margin="21,36,0,0" Name="accType_label" VerticalAlignment="Top" />
+        <Label Content="Starting Balance : " Height="28" HorizontalAlignment="Left" Margin="7,97,0,0" Name="startingbalance_label" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="118,157,0,0" Name="address_textbox" VerticalAlignment="Top" Width="120" />
+        <Label Content="Address : " Height="28" HorizontalAlignment="Left" Margin="50,152,0,0" Name="address_label" VerticalAlignment="Top" />
+        <Label Content="Overdraft : " Height="28" HorizontalAlignment="Right" Margin="0,126,166,0" Name="limit_label" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="118,186,0,0" Name="deposit_textbox" VerticalAlignment="Top" Width="120" TextChanged="deposit_textbox_TextChanged" />
+        <Label Content="Deposit : " Height="28" HorizontalAlignment="Left" Margin="50,184,0,0" Name="deposit_label" VerticalAlignment="Top" />
+    </Grid>
+</Window>

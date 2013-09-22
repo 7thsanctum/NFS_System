@@ -1,0 +1,16 @@
+﻿<Window x:Class="NFS_System.ChiefScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ChiefScreen" Height="400" Width="400">
+    <Grid>
+        <Button Content="Exit" Height="23" HorizontalAlignment="Left" IsCancel="False" Margin="151,326,0,0" Name="Exit" VerticalAlignment="Top" Width="75" Click="Exit_Click" />
+        <Button Content="Create New Staff Account" Height="46" HorizontalAlignment="Left" Margin="266,303,0,0" Name="createNew" VerticalAlignment="Top" Width="100" Click="createNew_Click" IsEnabled="False" />
+        <Label Content="Welcome" DataContext="{Binding}" HorizontalAlignment="Left" Margin="158,12,0,321" Name="label1" />
+        <Button Content="Daily Status Report" Height="46" HorizontalAlignment="Left" Margin="266,170,0,0" Name="status_button" VerticalAlignment="Top" Width="100" Click="status_button_Click" />
+        <Button Content="Start Interest Rates" Height="46" HorizontalAlignment="Left" Margin="266,118,0,0" Name="startInterest_button" VerticalAlignment="Top" Width="100" Click="startInterest_button_Click" />
+        <Button Content="Set Interest Rates" Height="46" HorizontalAlignment="Left" Margin="266,66,0,0" Name="setinterest_button" VerticalAlignment="Top" Width="100" Click="setinterest_button_Click" />
+        <Button Content="Clerk Activities" Height="46" HorizontalAlignment="Left" Margin="266,222,0,0" Name="clerk_button" VerticalAlignment="Top" Width="100" Click="clerk_button_Click" />
+        <ListBox Margin="12,66,0,0" Name="accountList" HorizontalAlignment="Left" Width="239" Height="202" VerticalAlignment="Top" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="12,17,0,0" Name="textBlock1" Text="TextBlock" VerticalAlignment="Top" />
+    </Grid>
+</Window>
